@@ -1,5 +1,5 @@
 {
-  "homepage": "http://kamal-kaur04.github.io/Guess-Number",
+  "homepage": "http://kamal-kaur04.github.io/Guess-a-Number",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
