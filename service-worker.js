@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Guess-Number/precache-manifest.8fae4d1b73f8f791e3b478e13d8b1536.js"
+  "/Guess-a-Number/precache-manifest.ff521dfc50fe0ca4fae7997dcb8053ec.js"
 );
 
 workbox.skipWaiting();
@@ -29,7 +29,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Guess-Number/index.html", {
+workbox.routing.registerNavigationRoute("/Guess-a-Number/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
